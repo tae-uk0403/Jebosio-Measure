@@ -1,0 +1,27 @@
+[project]
+name = "jebosio-measure"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "tae-uk0403",email = "ntw0403@naver.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "uvicorn (>=0.34.0,<0.35.0)",
+    "gunicorn (>=23.0.0,<24.0.0)",
+    "opencv-python (>=4.11.0.86,<5.0.0.0)",
+    "pyntcloud (>=0.3.1,<0.4.0)",
+    "plyfile (>=1.1,<2.0)",
+    "imageio (>=2.37.0,<3.0.0)",
+    "matplotlib (>=3.10.0,<4.0.0)",
+    "fastapi (>=0.115.8,<0.116.0)",
+    "tensorflow (>=2.18.0,<3.0.0)",
+    "sympy (>=1.13.3,<2.0.0)",
+    "ultralytics (>=8.3.70,<9.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
